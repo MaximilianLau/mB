@@ -31,6 +31,7 @@ const Editor = (props) => {
                 rotatingPointOffset: 70
             }}
             usageStatistics={true}
+            className="ImageSpacing"
         />
     );
     

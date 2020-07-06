@@ -9,25 +9,56 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-size:62.5%;
+  background-color:#1e1e1e;
 }
 a {
   text-decoration:none;
 }
 h1 {
   font-size:4.0rem;
+  color:#ffb833;
 }
-
+ p {
+    color:hsl(219, 100%, 68%);
+    font-size:2.0rem;
+    line-height:2.5rem;
+}
+.qualityText {
+  color:#ffb833;
+  padding-top:15px;
+}
+.qualitySection {
+  padding:25px;
+}
 .wrapper {
   margin:0 auto;
   text-align:center;
-  width:80%;
+  width:90%;
 }
-
-
-
+.AppWrapper {
+  max-height:100vh;
+}
+.ContentWrapper {
+  padding-bottom:100px;
+}
+form {
+  padding-bottom:25px;
+}
+form input {
+    width:50%;
+    font-size:3.0rem;
+}
+form button {
+    font-size:3.0rem;
+}
+button:hover {
+  color:#ffb833;
+  background-color:black;
+}
 .imageGrid {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    grid-gap:25px;
 }
 
 .imageContainer img:active,
@@ -36,7 +67,8 @@ h1 {
     border:1px solid red;
 }
 .imageContainer img {
-    max-height:250px;
+    width:100%;
+    max-height:100%;
 }
 
 .imageChosen {
@@ -45,4 +77,18 @@ h1 {
 
 .chosen {
     width:100%;
+}
+
+.toast-alert {
+    background:white;
+    color:black;
+    font-size:3.0rem;
+    margin-bottom:50%;
+}
+
+.qualityButton {
+  font-size:1.5rem;
+  margin:10px;
+  border-radius:20px;
+  padding:10px 25px;
 }
