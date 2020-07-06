@@ -1,3 +1,12 @@
+MintBean Hackathon
+
+Lorem Editsum 
+
+Web App that lets you search for a relevant image placeholder via Unsplash API, then lets you edit that image to your liking (adding shapes, changing filters, grayscale) etc.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
