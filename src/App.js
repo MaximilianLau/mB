@@ -9,10 +9,9 @@ function App() {
   return (    
     <div>
       <Header />
-      <div className="App">
-        <h1>MintBean</h1>
-      </div>
 
+
+      <Search />
 
 
       <Footer/>
